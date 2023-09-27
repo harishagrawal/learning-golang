@@ -1,7 +1,9 @@
+// This is a test file for the Add_28d8c9c450 function.
 package main
 
 import (
 	"testing"
+	"log"
 )
 
 func TestAdd_28d8c9c450(t *testing.T) {
@@ -10,7 +12,7 @@ func TestAdd_28d8c9c450(t *testing.T) {
 		if result != 5 {
 			t.Errorf("Expected 5, but got %d", result)
 		} else {
-			t.Log("Success: TestAdd_28d8c9c450 for positive numbers passed.")
+			log.Println("Success: TestAdd_28d8c9c450 for positive numbers passed.")
 		}
 	})
 
@@ -19,7 +21,7 @@ func TestAdd_28d8c9c450(t *testing.T) {
 		if result != -5 {
 			t.Errorf("Expected -5, but got %d", result)
 		} else {
-			t.Log("Success: TestAdd_28d8c9c450 for negative numbers passed.")
+			log.Println("Success: TestAdd_28d8c9c450 for negative numbers passed.")
 		}
 	})
 
@@ -28,7 +30,7 @@ func TestAdd_28d8c9c450(t *testing.T) {
 		if result != 0 {
 			t.Errorf("Expected 0, but got %d", result)
 		} else {
-			t.Log("Success: TestAdd_28d8c9c450 for zero passed.")
+			log.Println("Success: TestAdd_28d8c9c450 for zero passed.")
 		}
 	})
 
@@ -37,7 +39,7 @@ func TestAdd_28d8c9c450(t *testing.T) {
 		if result != -1 {
 			t.Errorf("Expected -1, but got %d", result)
 		} else {
-			t.Log("Success: TestAdd_28d8c9c450 for positive and negative passed.")
+			log.Println("Success: TestAdd_28d8c9c450 for positive and negative passed.")
 		}
 	})
 }
